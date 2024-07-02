@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bootstrap Template3</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="contact-body">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Bootstrap Site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <section class="contact-contents">
+    <div class="container">
+      <div class="row">
+      	<!-- Contact -->
+        <div id="contact">
+          <h1 class="pageTitle">Contact</h1>
+          <section>
+            <form method="post" action="/">
+              <label>お名前<br>
+                <input type="text" name="name" required>
+              </label>
+              <br><br>
+              <label>電話番号<br>
+                <input type="tel" name="phone-number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678" required>
+              </label>
+              <br><br>
+              <label>メールアドレス<br>
+                <input type="email" name="mail" placeholder="mail123address@example.com" maxlength="50" required>
+              </label>
+              <br><br>
+              <label>件名<br>
+                <input type="text" name="subject" maxlength="200" required>
+              </label>
+              <br><br>
+              <label>内容<br>
+                <textarea name="Content" id="Content" cols="30" rows="10" required></textarea>
+              </label>        
+              <br><br>
+              <div class="button_wrapper">
+                <button type="submit">送信する</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

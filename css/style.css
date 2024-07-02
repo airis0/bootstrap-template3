@@ -1,0 +1,122 @@
+#home-body {
+  background: url('./../images/home.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#about-body {
+  background: url('./../images/about.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#service-body {
+  background: url('./../images/service.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#contact-body {
+  background: url('./../images/contact.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.home-contents {
+  margin-top: 5%;
+}
+
+.home-contents > div > div > div {
+  border: 1px solid gray;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.home-contents h1 , p {
+  color: royalblue;
+}
+
+.about-contents {
+  margin-top: 2%;
+}
+
+.about-contents > div > div {
+  height: 650px;
+}
+
+.about-contents > div > div > div {
+  border: 1px solid gray;
+  background-color: white;
+  opacity: 0.8;
+  margin:0 auto;
+}
+
+.about-contents p {
+  color: black;
+}
+
+table , td, th {
+  border: 1px solid #595959;
+  border-collapse: collapse;
+}
+  
+td ,th {
+  padding: 10px;
+}
+
+#table-block {
+  text-align: center;
+  margin: 5% 0 5% 0;
+}
+
+#table-block table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.service-contents {
+  margin-top: 2%;
+}
+
+.service-contents > div > div {
+  height: 550px;
+}
+
+.service-contents > div > div > div {
+  border: 1px solid gray;
+  background-color: white;
+  opacity: 0.8;
+  margin:0 auto;
+}
+
+.service-contents p , li {
+  font-size: 93%;
+}
+
+.service-contents h1 , p {
+  color: deepskyblue;
+}
+
+#contact{
+  margin:0 auto;
+}
+
+.pageTitle {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.contact-contents > div > div {
+  border: 1px solid gray;
+  background-color: white;
+  opacity: 0.8;
+}
+
+form > label > input, textarea{
+  width:300px;
+}
+
+form > label > textarea{
+  height: 160px;
+}
+
+.button_wrapper{
+  text-align:center;
+  margin-bottom: 80px;
+}
